@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	topShelfService := routes.NewGitHubOAuthService()
-	topShelfService.StartApiService(routes.NewRouter(topShelfService))
+	gitHubOAuthService := routes.NewGitHubOAuthService()
+	gitHubOAuthService.StartApiService(routes.NewRouter(gitHubOAuthService))
 }
