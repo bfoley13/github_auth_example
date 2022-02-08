@@ -1,0 +1,4 @@
+vendor/
+.aws/
+.idea/
+.DS_Store
