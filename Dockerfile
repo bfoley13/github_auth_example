@@ -10,8 +10,6 @@ RUN go mod download
 RUN go build -v -o /github_auth_service ./
 
 FROM alpine:3.13
-ARG helm2version=2.17.0
-ARG helm3version=3.6.3
 
 ENV APP_CLIENT_ID ""
 ENV APP_SECRET ""
